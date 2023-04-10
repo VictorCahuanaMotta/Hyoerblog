@@ -18,9 +18,30 @@ body{
     padding: 1em;
     text-align: left;
     border: 1px solid #ddd;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 #container h1{
-    font-size:20px ;
+    font-size:30px ;
+    margin-bottom: 0.25em;
+}
+
+#cabecera{
+    background: blueviolet;
+    color: white;
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+    font-size: 1.5em;
+
+}
+#post{
+    padding: 1em;
+}
+
+#cabecera #tagline{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
 }
